@@ -1,5 +1,6 @@
 module.exports = {
     //basePath: '/app',
     //assetPrefix: '/app',
-    output: 'export'
+    output: 'export',
+    images: { unoptimized: true }
 }
