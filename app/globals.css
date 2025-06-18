@@ -25,9 +25,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-bebas), serif;
+  font-family: var(--font-oswald), serif;
 }
 /* todo: ideally shouldnt do this but tailwind styles for bebas are being overridden on <html> by garamond */
 .font-heading {
-  font-family: var(--font-bebas), sans-serif;
+  font-family: var(--font-oswald), sans-serif;
 }

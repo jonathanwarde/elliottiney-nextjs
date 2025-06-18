@@ -8,8 +8,8 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-            heading: ['var(--font-bebas)'],
-            body: ['var(--font-cormorant)'],
+            heading: ['var(--font-oswald)'],
+            body: ['var(--font-merriweather)'],
         },
       },
     },
