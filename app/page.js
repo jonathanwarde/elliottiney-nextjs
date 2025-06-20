@@ -1,11 +1,13 @@
 import Nav from './components/Nav'
 import Logo from './components/Logo'
+import PortfolioGrid from './components/PortfolioGrid'
 import Image from 'next/image'
 
 export default function Home() {
   return (
+    <>
     <div className="flex flex-col h-screen p-4">
-      <header className="flex justify-between">
+      <header className="flex justify-between fixed top-0 left-0 right-0">
         {/*<p className="text-3xl">Elliot<span className="font-heading">Tiney</span></p>*/}
         <Logo />
         <Nav />
@@ -28,5 +30,7 @@ export default function Home() {
         </div>
       </main>
     </div>
+    <PortfolioGrid />
+    </>
   );
 }
