@@ -1,8 +1,7 @@
 import './globals.css';
-import { Bebas_Neue, Cormorant_Garamond, Merriweather, Oswald } from 'next/font/google';   // ← font loader function
+import { Bebas_Neue, Cormorant_Garamond, Merriweather, Oswald } from 'next/font/google';   
 
 
-// call the loader **once**, at module scope, and save the result
 const bebasNeue = Bebas_Neue({
   weight: '400',
   subsets: ['latin'],
